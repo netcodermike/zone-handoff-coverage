@@ -1,0 +1,32 @@
+{
+  "command": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "app.ps1"
+  ],
+  "expected": {
+    "zones": [
+      {
+        "zone": "North",
+        "gaps": [
+          [
+            50,
+            65
+          ]
+        ],
+        "overlaps": [
+          [
+            20,
+            30
+          ]
+        ]
+      },
+      {
+        "zone": "South",
+        "gaps": [],
+        "overlaps": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "until": 100,
+  "zones": [
+    "North",
+    "South"
+  ],
+  "assignments": [
+    [
+      "North",
+      0,
+      30
+    ],
+    [
+      "North",
+      20,
+      50
+    ],
+    [
+      "North",
+      65,
+      100
+    ],
+    [
+      "South",
+      0,
+      100
+    ]
+  ]
+}
